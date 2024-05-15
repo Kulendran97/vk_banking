@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 
 const Sidebar = () => {
   const pathname = usePathname();
+  const user = "vinoth";
 
   return (
     <section className="sidebar">
